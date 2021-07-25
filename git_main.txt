@@ -1,0 +1,28 @@
+#create a git repositiory
+git init 
+git config --global user.email "PUT_YOUR_EMAIL_HERE" 
+git config --global user.name "PUT_YOUR_NAME_HERE"
+
+git status
+git diff 
+git add .
+git add index.js 
+git commit -m "PUT_YOUR_COMMENT_HERE"
+git branch <branch_name>
+
+#List all local and remote branches
+git branch -a 
+
+#Delete a branch 
+git branch -d <branch_name>
+
+
+#This command is used to connect your local repository with the remote repository.
+$ git remote add <remote_name> <remote_server_url>
+
+
+
+#switching back and forth different branches multiple times
+
+git checkout -
+
